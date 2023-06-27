@@ -356,4 +356,56 @@ HINT: Use an if/else statement 😉
 GOOD LUCK 😀
 */
 //----------------------Type Coversion and correction----------------------
-// Type is the process of 
+// Type is the process of converting value from one type to another
+const inputYear ="1991"
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 10); 
+
+
+console.log(Number("Donald"));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+// Type coersion
+// Type coersion is when javascript correcess or changes a data type by itself
+const sum =35 + "hello";
+console.log(sum);
+
+console.log("23" - "10" -3);
+
+console.log("24" / "2");
+
+let n = "1" + 1;
+n = n -1;
+console.log(n);
+
+// ----------------Trusty and Falsy values--------------
+// We have 5 falsy values:0,"",underfied, null, Nan
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+
+
+const money =100;
+if(money){
+     console.log('Go on a shoppin spree!');
+}
+else{
+    console.log('Dont spend the money');
+
+}
+ let product =0;
+ if(product){
+    console.log('Stay at home');
+
+ }
+
+ else{
+    console.log('Go on a shopping spree');
+ }
+
+
+// ***********************Logical operactors****************
