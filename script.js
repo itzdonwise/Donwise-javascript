@@ -409,4 +409,46 @@ else{
 
 
 // ***********************Logical operactors****************
-let me = true;
+const hasDriversLicense = true;
+const hasGoodVision = false;
+const isTied =false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if(hasDriversLicense && hasGoodVision){
+    console.log('Nonso is eligible to drive');
+}
+else{ 
+    console.log('some one else should drive');
+
+}
+
+if(hasDriversLicense || hasGoodVision){
+    console.log('Nonso is eligible to drive');
+}
+else{ 
+    console.log('some one else should drive');
+
+}
+if(!hasDriversLicense || hasGoodVision){
+    console.log('Nonso is eligible to drive');
+}
+else{ 
+    console.log('some one else should drive');
+
+}
+
+if(hasDriversLicense && hasGoodVision || isTied){
+    console.log('Nonso is eligible to drive');
+}
+else{ 
+    console.log('some one else should drive');
+
+}
+
+
+
+
+
