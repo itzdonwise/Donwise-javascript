@@ -496,6 +496,50 @@ if(score <= 39){
 
 
 
+//*************************the switch statement************************
+
+const day = "monday";
+
+switch(day){
+    case "monday":
+    console.log('sit at home');
+    break;
+    case 'tuesday':
+        console.log()
+}
+
+        //switch statement logic if else  block
+
+        if(day === 'monday'){
+            console.log('then sit at home');
+
+        }
+        else if (day === 'tuesday'){
+          
+            console.log('go for class');
+
+        }
+
+        else if ( day === 'thursday' || day === 'friday'){
+            console.log('bake cake');
+            
+        }
+
+        else {
+            console.log('free day');
+        }
+
+
+        const bill =275;
+        const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : Bill * 0.2;
+        console.log(`the bill was ${bill}, the tip was ${tip}`)
+          
+        
+
+
+
+
+
 
 
 
