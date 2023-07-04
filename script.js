@@ -447,6 +447,64 @@ else{
     console.log('some one else should drive');
 
 }
+ 
+//coding chanllenge
+
+let manchesterscores = (96 + 108 +89)/3;
+const basoleniascores = (88 + 91 +110)/3;
+
+console.log(manchesterscores,basoleniascores)
+
+if(manchesterscores,basoleniascores){
+    console.log('manchester wins the tropy');
+}
+
+else if (manchesterscores >basoleniascores){
+    console.log('barcelona wins the trophy');
+
+}
+
+
+const manchesterscores2 = (97 + 112 + 101) / 3;
+const  barcelonascore2 = (109 + 95 + 123) / 3;
+console.log(manchesterscores2,barcelonascore2);
+
+if(manchesterscores2 > barcelonascore2 && barcelonascore2 >= 100){
+    console.log('manchester wins the trophy')
+}
+else if(barcelonascore2 > manchesterscores2 && barcelonascore2 >= 100){
+    console.log('barcelona wins the trophy')
+}
+else if(manchesterscores2 === barcelonascore2 && manchesterscores2 >= 100){
+    console.log('both wins the trophy')
+}
+
+else{
+    console.log('None wins')
+}
+
+
+
+let score = 100;
+
+if (score >= 40){
+    console.log(score);
+}
+if(score <= 39){
+    console.log('your grade is F');
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

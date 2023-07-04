@@ -15,7 +15,7 @@
 
     <button onclick="
     CartQuntity =  CartQuntity + 1;
-    console.log(`Cart quantity: ${CartQuntity}`)
+    console.log(`Cart quantity: ${CartQuntity}`);
     ">Add to Cart</button>
 
     <button onclick="
@@ -33,9 +33,22 @@
        console.log('Cart was reset.');
        console.log(`Cart quantity: ${CartQuntity}`);
 
+    
+
 
     
     ">Reset Cart</button>
+
+    <p>Rock paper scissors</p>
+    
+    <button onclick="
+    const roundomNumber = Math.random();
+    console.log(roundomNumber);
+
+    
+    ">Rock</button>
+    <button>paper</button>
+    <button>scissors</button>
 
     <script>
 let CartQuntity = 0;
